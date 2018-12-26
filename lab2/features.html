@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+    Swapnil Patil<br>
+    swdpatil@ucsc.edu<br>
+    1521457<br>
+    Assignment 2<br>
+    <br>
+    <a href="Lab2.html">direct link</a><br>
+    <a href="https://people.ucsc.edu/~swdpatil/Lab2.html">live host</a><br>
+    <br>
+    Points Attempted
+    <ul>
+      <li>Assignment2: (REQUIRED) If the user just draws a single straight line, a generalized cylinder is drawn around it. </li>
+      <li>Assignment2: (REQUIRED) If the user draws a polyline, generalized cylinders are drawn around each line segment. </li>
+      <li>Assignment2: (REQUIRED) The user can save the model currently on screen to an OBJ file. </li>
+      <li>Assignment2: (REQUIRED) The user can save the model currently on screen to an OBJ file. </li>
+      <li>Assignment2: (REQUIRED) The user can load and display a model from an OBJ file. </li>
+      <li>Assignment2: (EXTRA) The user can change the number of sides the cylinder has with a slider. </li>
+      <li>Assignment2: (EXTRA) The user can change the width of the cylinder with a slider (i.e. the radius of the polygonal face). </li>
+      <li>Assignment2: (EXTRA) When you finish drawing a cylinder, print to console the volume of the cylinder. </li>
+      <li>Assignment2: (EXTRA) When you finish drawing the cylinder, print to console the surface area of the cylinder. </li>
+    </ul>
+    Notes to Grader
+    <p>
+        The range for the sides slider is from 7 to 14, I didn't add lower number of sides because the cylinder looked a little distorted
+        for small number of sides. Also for an odd number of sides the cylinder will look like it's missing an edge at the end but I believe
+        it looks like that because that is the flat side that loops around the cylinder. For even sides however in 2D it looks normal. The range
+        for the radius slider is from 0.1 to 0.5. I outputted to the console the volume of the individual cylinders and then the total volume.
+        I do the same for the surface area.
+
+        I calculated the volume by multiplying the height of the cylinder by the area of the face. I calculate the area of the polygon with the
+        following formula: n*r^2*sin(q/2)cos(q/2). Each regular polygon is divided into n triangles each with an area of r^2*sin(q/2)cos(q/2)
+        where r is the radius and q is 360/n.
+
+        I calculated surface area by multiplying the height of the cylinder with one ledge of the cylinder and then I multiply that by the number of
+        sides. I calculated the ledge with the following equation 2rsin(q/2). The surface area of one cylinder would then be n*height*2rsin(q/2)
+
+        (This was kind of a hard assignment so if there are any bugs I didn't catch: Have mercy pls.)
+    </p>
+  <body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lighted cube (diffuse+ambient)</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/load-file.js"></script>
+    <script src="LightedCube_ambient.js"></script>
+    <button id="shiftLightLeft" type="button">Shift Light Left</button>
+    <button id="shiftLightRight" type="button">Shift Light Right</button>
+    <button id="shiftCylinderLeft" type="button">Shift Cylinder Left</button>
+    <button id="shiftCylinderRight" type="button">Shift Cylinder Right</button>
+    <button id="toggleProjection" type="button">Toggle Projection</button>
+    Ambient light: r
+    <input id="inputr" type="number" name="r"></input>
+    g
+    <input id="inputg" type="number" name="g"></input>
+    b
+    <input id="inputb" type="number" name="b"></input>
+  </body>
+</html>

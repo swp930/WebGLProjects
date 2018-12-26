@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lab7</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="lib/load-file.js"></script>
+    <script src="SpecularCube.js"></script>
+    <button id="shiftLightLeft" type="button">Shift Light Left</button>
+    <button id="shiftLightRight" type="button">Shift Light Right</button>
+    <button id="shiftLeft" type="button">Shift Camera Left</button>
+    <button id="shiftRight" type="button">Shift Camera Right</button>
+    <button id="shiftUp" type="button">Shift Camera Up</button>
+    <button id="shiftDown" type="button">Shift Camera Down</button>
+    <button id="shiftForward" type="button">Move Camera Forward</button>
+    <button id="shiftBackward" type="button">Move Camera Backwards</button>
+    <button id="zoomIn" type="button">Zoom in</button>
+    <button id="zoomOut" type="button">Zoom out</button>
+    <button id="rotateLeft" type="button">Rotate left</button>
+    <button id="rotateRight" type="button">Rotate right</button>
+    <button id="rotateZNeg" type="button">Spin Camera Clockwise</button>
+    <button id="rotateZPos" type="button">Spin Camera Counterclockwise</button>
+    <button id="stretch" type="button">Stretch</button>
+    <button id="animateAroundZ" type="button">Pan animation</button>
+    <button id="shake" type="button">Earthquake Simulation</button>
+  </body>
+</html>
